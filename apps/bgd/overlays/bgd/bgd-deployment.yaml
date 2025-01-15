@@ -19,7 +19,7 @@ spec:
         app: bgd
     spec:
       containers:
-        - image: paulbouwer/hello-kubernetes
+        - image: nginx:1.25.3
           name: bgd
           env:
             - name: COLOR
